@@ -1,0 +1,28 @@
+body{
+justify-content: center;
+background-image: url("4.png");
+background-size: 100%;
+font-family: 'Muli', sans-serif;
+margin: 15% 0 0 0;
+
+}
+
+#quote-box {
+	
+	vertical-align: middle;
+	position: relative;
+	background-color: #760dd6cf  ;
+	width: 30%;
+	padding: 40px 50px;
+	color : white;
+
+	border-width: 8px;
+}
+#new-quote : hover {
+color: red;
+
+}
+#tweet-quote: hover {
+color: red;
+
+}

@@ -1,0 +1,47 @@
+<!-- User Story #1: I can see a wrapper element with a corresponding id="quote-box".
+User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
+User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
+User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+User Story #5: Within #quote-box, I can see a clickable element with a corresponding id="tweet-quote".
+User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
+User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
+User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
+User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
+User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in it's href attribute to tweet the current quote.
+User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script src="https://kit.fontawesome.com/index.js"></script>
+
+			
+	<title></title>
+</head>
+<body>
+			<div id="quote-box" class="container well text-center">
+				<!-- text -->
+			
+				<span id="comma"	class="animated flash fa fa-quote-right fa-3x" ></span>
+				<h1 id="text" class="animated flash"><span class="fa fa-quote-right fa-3x" ></span>
+				</h1>
+				<!-- author -->
+					<h3 id ="author">
+					</h3>
+				<!-- new-quote -->
+				<button type="button" class="btn btn-primary buttons" id="new-quote"><span class="fa fa-quote-left fa-2x"> </span><b>   New Quote</b></button>
+				<a type="button" class="btn btn-info" id="tweet-quote" target="_blank"><span class="fa fa-twitter fa-2x"> </span><b>   Tweet Quote</b></a>				
+			</div> 
+
+
+		<!--	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>

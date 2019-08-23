@@ -5,24 +5,44 @@ background-size: 100vw;
 font-family: 'Muli', sans-serif;
 margin: 15% 0 0 0;
 
+
+
+
 }
 
 #quote-box {
-	
+	align-items: center;
 	vertical-align: middle;
 	position: relative;
 	background-color: #760dd6cf  ;
-	width: 50%;
+	width: 80%;
 	padding: 40px 50px;
 	color : white;
 
 	border-width: 8px;
 }
-#new-quote : hover {
-color: red;
+#new-quote {
 
+margin-bottom: 10px;
 }
-#tweet-quote: hover {
-color: red;
+#tweet-quote {
+
+margin-bottom: 10px;
+}
+
+ #text {
+ 	text-align: center;
+	font-size: 2em;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+
+
+
 
 }
